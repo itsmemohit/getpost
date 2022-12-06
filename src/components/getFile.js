@@ -20,6 +20,7 @@ export default function GetFIle() {
                 <Fragment key={i}>
 
                     <h5>{_id.image}</h5>
+                    <img src={_id.image} width="400" height="379" alt="photo"/>
                     <p>{_id.maptype}</p>
                 </Fragment>
             ))}
